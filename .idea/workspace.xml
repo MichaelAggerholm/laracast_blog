@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb9b98eb-4121-4d85-8ba9-9fb5cbb2cc29" name="Changes" comment="" />
+    <list default="true" id="cb9b98eb-4121-4d85-8ba9-9fb5cbb2cc29" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/posts/index.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -177,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1631906305880</updated>
       <workItem from="1631906307079" duration="7272000" />
-      <workItem from="1631998507211" duration="821000" />
+      <workItem from="1631998507211" duration="1066000" />
     </task>
     <task id="LOCAL-00001" summary="files be gone now">
       <created>1631906344120</created>
@@ -214,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631998555085</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="files from practice project">
+      <created>1631999417959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631999417959</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +239,7 @@
     <MESSAGE value="included tailwind with composer and created layout template." />
     <MESSAGE value="created controllers, models, migrations and stated on layout. &#10;All with help from Laracast." />
     <MESSAGE value="files for deletion" />
-    <option name="LAST_COMMIT_MESSAGE" value="files for deletion" />
+    <MESSAGE value="files from practice project" />
+    <option name="LAST_COMMIT_MESSAGE" value="files from practice project" />
   </component>
 </project>
