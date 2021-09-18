@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb9b98eb-4121-4d85-8ba9-9fb5cbb2cc29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/resources/views/components/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/app/View/Components/CategoryDropdown.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/database/factories/CategoryFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/database/factories/PostFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/project/database/seeders/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +43,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/database/factories" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael Aggerholm\PhpstormProjects\laravel_blog\project\database\factories" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Michael Aggerholm\PhpstormProjects\laravel_blog\project\resources\views\components" />
       <recent name="C:\Users\Michael Aggerholm\PhpstormProjects\laravel_blog\project\resources\views\frontend" />
@@ -59,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631906305880</updated>
-      <workItem from="1631906307079" duration="4252000" />
+      <workItem from="1631906307079" duration="6514000" />
     </task>
     <task id="LOCAL-00001" summary="files be gone now">
       <created>1631906344120</created>
@@ -75,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631907967798</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="included tailwind with composer and created layout template.">
+      <created>1631914033536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631914033536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +98,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="files be gone now" />
     <MESSAGE value="installed project files with breeze auth library and clockwork library for debugging." />
-    <option name="LAST_COMMIT_MESSAGE" value="installed project files with breeze auth library and clockwork library for debugging." />
+    <MESSAGE value="included tailwind with composer and created layout template." />
+    <option name="LAST_COMMIT_MESSAGE" value="included tailwind with composer and created layout template." />
   </component>
 </project>
