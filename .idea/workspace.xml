@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="created comments migrationg with factory, model and controller. &#10;Made it cascading with posts / users. and created test data in factory.">
+    <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/CommentFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CommentFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/post-comment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-comment.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +62,7 @@
       <updated>1633641234203</updated>
       <workItem from="1633641235433" duration="786000" />
       <workItem from="1633721650678" duration="4398000" />
-      <workItem from="1633893223120" duration="1767000" />
+      <workItem from="1633893223120" duration="3281000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -94,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633811823606</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished making comments dynamic. except comments image, comes as random from i.pravator.cc with ?u= comment id to generate unique images for each comment.">
+      <created>1633895466993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633895466993</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +112,7 @@
     <MESSAGE value="Refactor of files location and database name." />
     <MESSAGE value="started creating comments, so far they are created static, next step will be making them dynamic on posts." />
     <MESSAGE value="created comments migrationg with factory, model and controller. &#10;Made it cascading with posts / users. and created test data in factory." />
-    <option name="LAST_COMMIT_MESSAGE" value="created comments migrationg with factory, model and controller. &#10;Made it cascading with posts / users. and created test data in factory." />
+    <MESSAGE value="finished making comments dynamic. except comments image, comes as random from i.pravator.cc with ?u= comment id to generate unique images for each comment." />
+    <option name="LAST_COMMIT_MESSAGE" value="finished making comments dynamic. except comments image, comes as random from i.pravator.cc with ?u= comment id to generate unique images for each comment." />
   </component>
 </project>
