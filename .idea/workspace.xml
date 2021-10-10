@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/CommentFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_10_09_195151_create_comments_table.php" afterDir="false" />
+    <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="created comments migrationg with factory, model and controller. &#10;Made it cascading with posts / users. and created test data in factory.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/CategoryFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CategoryFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/PostFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/PostFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_09_04_162331_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_09_04_162331_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/CommentFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/CommentFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/post-comment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-comment.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1633641234203</updated>
       <workItem from="1633641235433" duration="786000" />
-      <workItem from="1633721650678" duration="3701000" />
+      <workItem from="1633721650678" duration="4398000" />
+      <workItem from="1633893223120" duration="1767000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -91,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633722426740</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created comments migrationg with factory, model and controller. &#10;Made it cascading with posts / users. and created test data in factory.">
+      <created>1633811823606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633811823606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +106,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Refactor of files location and database name." />
     <MESSAGE value="started creating comments, so far they are created static, next step will be making them dynamic on posts." />
-    <option name="LAST_COMMIT_MESSAGE" value="started creating comments, so far they are created static, next step will be making them dynamic on posts." />
+    <MESSAGE value="created comments migrationg with factory, model and controller. &#10;Made it cascading with posts / users. and created test data in factory." />
+    <option name="LAST_COMMIT_MESSAGE" value="created comments migrationg with factory, model and controller. &#10;Made it cascading with posts / users. and created test data in factory." />
   </component>
 </project>
