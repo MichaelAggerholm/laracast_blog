@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/components/panel.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostCommentsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/post-comment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-comment.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,9 @@
       <updated>1633641234203</updated>
       <workItem from="1633641235433" duration="786000" />
       <workItem from="1633721650678" duration="4398000" />
-      <workItem from="1633893223120" duration="3826000" />
+      <workItem from="1633893223120" duration="3914000" />
+      <workItem from="1634053521628" duration="128000" />
+      <workItem from="1634469219111" duration="1360000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -108,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633897353507</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactoring by making a panel view in components to implement styled div that is used multiple times. to reduce duplicate code.">
+      <created>1633897882821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1633897882821</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +133,7 @@
     <MESSAGE value="created comments migrationg with factory, model and controller. &#10;Made it cascading with posts / users. and created test data in factory." />
     <MESSAGE value="finished making comments dynamic. except comments image, comes as random from i.pravator.cc with ?u= comment id to generate unique images for each comment." />
     <MESSAGE value="refactor + layout of comments and create comment form." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor + layout of comments and create comment form." />
+    <MESSAGE value="refactoring by making a panel view in components to implement styled div that is used multiple times. to reduce duplicate code." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring by making a panel view in components to implement styled div that is used multiple times. to reduce duplicate code." />
   </component>
 </project>
