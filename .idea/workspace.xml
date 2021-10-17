@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/posts/_add-comment-form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,7 @@
       <workItem from="1633721650678" duration="4398000" />
       <workItem from="1633893223120" duration="3914000" />
       <workItem from="1634053521628" duration="128000" />
-      <workItem from="1634469219111" duration="3605000" />
+      <workItem from="1634469219111" duration="7597000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -130,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634492431015</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="clearnup of comment form, extracted to own file, and included in show.blade.php.">
+      <created>1634493033948</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1634493033948</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +158,7 @@
     <MESSAGE value="refactoring by making a panel view in components to implement styled div that is used multiple times. to reduce duplicate code." />
     <MESSAGE value="ability to create comments if logged in as user." />
     <MESSAGE value="cleanup and validation on comments. &#10;only show if authorized login.&#10;and link to regiser / login if not." />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup and validation on comments. &#10;only show if authorized login.&#10;and link to regiser / login if not." />
+    <MESSAGE value="clearnup of comment form, extracted to own file, and included in show.blade.php." />
+    <option name="LAST_COMMIT_MESSAGE" value="clearnup of comment form, extracted to own file, and included in show.blade.php." />
   </component>
 </project>
