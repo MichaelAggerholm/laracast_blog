@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/_add-comment-form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/post-comment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-comment.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +65,7 @@
       <workItem from="1633721650678" duration="4398000" />
       <workItem from="1633893223120" duration="3914000" />
       <workItem from="1634053521628" duration="128000" />
-      <workItem from="1634469219111" duration="2915000" />
+      <workItem from="1634469219111" duration="3605000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -126,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634470607553</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="cleanup and validation on comments. &#10;only show if authorized login.&#10;and link to regiser / login if not.">
+      <created>1634492431015</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634492431015</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +147,7 @@
     <MESSAGE value="refactor + layout of comments and create comment form." />
     <MESSAGE value="refactoring by making a panel view in components to implement styled div that is used multiple times. to reduce duplicate code." />
     <MESSAGE value="ability to create comments if logged in as user." />
-    <option name="LAST_COMMIT_MESSAGE" value="ability to create comments if logged in as user." />
+    <MESSAGE value="cleanup and validation on comments. &#10;only show if authorized login.&#10;and link to regiser / login if not." />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup and validation on comments. &#10;only show if authorized login.&#10;and link to regiser / login if not." />
   </component>
 </project>
