@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -68,7 +63,11 @@
       <workItem from="1633721650678" duration="4398000" />
       <workItem from="1633893223120" duration="3914000" />
       <workItem from="1634053521628" duration="128000" />
-      <workItem from="1634469219111" duration="7597000" />
+      <workItem from="1634469219111" duration="7691000" />
+      <workItem from="1634499273913" duration="170000" />
+      <workItem from="1634499457110" duration="59000" />
+      <workItem from="1634499527494" duration="272000" />
+      <workItem from="1634499848037" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -140,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634493033948</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="connected to mailchimp api with success. added new subscriber test and flash message with confirmation.&#10;need to cleanup the route.">
+      <created>1634499176239</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1634499176239</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +165,11 @@
     <MESSAGE value="ability to create comments if logged in as user." />
     <MESSAGE value="cleanup and validation on comments. &#10;only show if authorized login.&#10;and link to regiser / login if not." />
     <MESSAGE value="clearnup of comment form, extracted to own file, and included in show.blade.php." />
-    <option name="LAST_COMMIT_MESSAGE" value="clearnup of comment form, extracted to own file, and included in show.blade.php." />
+    <MESSAGE value="connected to mailchimp api with success. added new subscriber test and flash message with confirmation.&#10;need to cleanup the route." />
+    <option name="LAST_COMMIT_MESSAGE" value="connected to mailchimp api with success. added new subscriber test and flash message with confirmation.&#10;need to cleanup the route." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
