@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Third Party Services
+    | Third Party services
     |--------------------------------------------------------------------------
     |
     | This file is for storing the credentials for third party services such
@@ -31,7 +31,10 @@ return [
     ],
 
     'mailchimp' => [
-        'key' => env('MAILCHIMP_KEY')
+        'key' => env('MAILCHIMP_KEY'),
+        'lists' => [
+            'subscribers' => '9c02752a09'
+        ]
     ],
 
 ];
