@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsletterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Services/Newsletter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/MustBeAdministrator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +75,7 @@
       <workItem from="1634499527494" duration="272000" />
       <workItem from="1634499848037" duration="859000" />
       <workItem from="1634560535911" duration="1298000" />
-      <workItem from="1634564428461" duration="5231000" />
+      <workItem from="1634564428461" duration="9202000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -163,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634499998526</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactor + clearnup of mailchimp subscribers API call function.">
+      <created>1634578282051</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1634578282051</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +188,8 @@
     <MESSAGE value="cleanup and validation on comments. &#10;only show if authorized login.&#10;and link to regiser / login if not." />
     <MESSAGE value="clearnup of comment form, extracted to own file, and included in show.blade.php." />
     <MESSAGE value="connected to mailchimp api with success. added new subscriber test and flash message with confirmation.&#10;need to cleanup the route." />
-    <option name="LAST_COMMIT_MESSAGE" value="connected to mailchimp api with success. added new subscriber test and flash message with confirmation.&#10;need to cleanup the route." />
+    <MESSAGE value="refactor + clearnup of mailchimp subscribers API call function." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor + clearnup of mailchimp subscribers API call function." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
