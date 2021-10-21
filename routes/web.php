@@ -23,3 +23,8 @@ Route::post('logout', [SessionsController::class, 'destroy'])->middleware('auth'
 
 Route::get('admin/posts/create', [PostsController::class, 'create'])->middleware('admin');
 Route::post('admin/posts', [PostsController::class, 'store'])->middleware('admin');
+
+
+Route::get('/linkstorage', function () {
+    Artisan::call('storage:link');
+});

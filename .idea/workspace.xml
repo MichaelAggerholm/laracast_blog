@@ -4,7 +4,12 @@
     <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_09_04_162331_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_09_04_162331_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/post-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-card.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/post-featured-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-featured-card.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +88,9 @@
       <workItem from="1634499848037" duration="859000" />
       <workItem from="1634560535911" duration="1298000" />
       <workItem from="1634564428461" duration="9891000" />
-      <workItem from="1634843105747" duration="2662000" />
+      <workItem from="1634843105747" duration="4133000" />
+      <workItem from="1634847823337" duration="561000" />
+      <workItem from="1634848399077" duration="1639000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -183,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634589030359</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="admin panel to create posts. need support for thumbnail in the future.">
+      <created>1634845810312</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1634845810312</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +219,8 @@
     <MESSAGE value="connected to mailchimp api with success. added new subscriber test and flash message with confirmation.&#10;need to cleanup the route." />
     <MESSAGE value="refactor + clearnup of mailchimp subscribers API call function." />
     <MESSAGE value="created admin role acces to all with middleware admin auth." />
-    <option name="LAST_COMMIT_MESSAGE" value="created admin role acces to all with middleware admin auth." />
+    <MESSAGE value="admin panel to create posts. need support for thumbnail in the future." />
+    <option name="LAST_COMMIT_MESSAGE" value="admin panel to create posts. need support for thumbnail in the future." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
