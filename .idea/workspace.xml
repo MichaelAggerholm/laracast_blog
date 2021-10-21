@@ -4,9 +4,9 @@
     <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/post-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-card.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/post-featured-card.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/post-featured-card.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <workItem from="1634843105747" duration="4133000" />
       <workItem from="1634847823337" duration="561000" />
       <workItem from="1634848399077" duration="1669000" />
-      <workItem from="1634850274278" duration="1837000" />
+      <workItem from="1634850274278" duration="2033000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634850075768</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="created image upload to database.. but the path is annoying and has to be edited for the images to show on localhost.. somehow i need to remove public from the path.">
+      <created>1634852158404</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1634852158404</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +232,8 @@
     <MESSAGE value="created admin role acces to all with middleware admin auth." />
     <MESSAGE value="admin panel to create posts. need support for thumbnail in the future." />
     <MESSAGE value="trying to make storage for thumbnails on posts.. not working yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to make storage for thumbnails on posts.. not working yet." />
+    <MESSAGE value="created image upload to database.. but the path is annoying and has to be edited for the images to show on localhost.. somehow i need to remove public from the path." />
+    <option name="LAST_COMMIT_MESSAGE" value="created image upload to database.. but the path is annoying and has to be edited for the images to show on localhost.. somehow i need to remove public from the path." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
