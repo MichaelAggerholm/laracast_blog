@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/MustBeAdministrator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,16 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="127.0.0.1" id="5563071d-6f0b-4b48-b4af-e661c40d2fb4" name="127.0.0.1" port="8000" />
+      <server host="localhost" id="b5b19703-3e5e-45f7-baec-31e7e1e3190e" name="localhost" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/vendor/symfony/http-client-contracts/Test/Fixtures/web" remote-root="C:/xampp/htdocs" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
   <component name="ProjectId" id="1zC9W5sU6zSmAVOxdur9XsNHgWL" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -75,7 +82,8 @@
       <workItem from="1634499527494" duration="272000" />
       <workItem from="1634499848037" duration="859000" />
       <workItem from="1634560535911" duration="1298000" />
-      <workItem from="1634564428461" duration="9202000" />
+      <workItem from="1634564428461" duration="9891000" />
+      <workItem from="1634843105747" duration="2662000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -168,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634578282051</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="created admin role acces to all with middleware admin auth.">
+      <created>1634589030359</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1634589030359</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +204,8 @@
     <MESSAGE value="clearnup of comment form, extracted to own file, and included in show.blade.php." />
     <MESSAGE value="connected to mailchimp api with success. added new subscriber test and flash message with confirmation.&#10;need to cleanup the route." />
     <MESSAGE value="refactor + clearnup of mailchimp subscribers API call function." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor + clearnup of mailchimp subscribers API call function." />
+    <MESSAGE value="created admin role acces to all with middleware admin auth." />
+    <option name="LAST_COMMIT_MESSAGE" value="created admin role acces to all with middleware admin auth." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
