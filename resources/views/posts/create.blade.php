@@ -14,24 +14,10 @@
 
                 <x-form.textarea name="excerpt" />
 
-                <div class="mb-6">
-                    <label class="block mb-2 uppercase font-bold text-xs text-gray-700"
-                           for="body">Body</label>
+                <x-form.textarea name="body" />
 
-                    <textarea class="border border-gray-400 p-2 w-full"
-                              name="body"
-                              id="body"
-                              required>{{ old('body') }}</textarea>
-
-                    @error('body')
-                    <p class="text-red-500 text-xs mt-2">{{ $message }}</p>
-                    @enderror
-                </div>
-
-
-                <div class="mb-6">
-                    <label class="block mb-2 uppercase font-bold text-xs text-gray-700"
-                           for="category_id">Category</label>
+                <x-form.field>
+                    <x-form.label name="category" />
 
                     <select name="category_id" id="category_id">
                         @foreach(\App\Models\Category::all() as $category)
@@ -42,9 +28,10 @@
                         @endforeach
                     </select>
 
-                    @error('category')
-                    <p class="text-red-500 text-xs mt-2">{{ $message }}</p>
-                    @enderror
+                    <x-form.error name="category" />
+                </x-form.field>
+
+                <div class="mb-6">
                 </div>
 
                 <button type="submit"
