@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/components/form/body.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/form/error.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/form/field.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/form/label.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/form/input.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/form/input.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/form/textarea.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/form/textarea.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/category-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/category-button.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/posts-grid.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/posts-grid.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +89,7 @@
       <workItem from="1634893013411" duration="442000" />
       <workItem from="1634902892838" duration="242000" />
       <workItem from="1634903411391" duration="1843000" />
-      <workItem from="1636640163068" duration="2144000" />
+      <workItem from="1636640163068" duration="2427000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -236,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636640784556</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="refactoring to components.">
+      <created>1636642342717</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1636642342717</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +265,8 @@
     <MESSAGE value="fixed file path. filesystem default had to be changed in .env" />
     <MESSAGE value="creating components to clean up code." />
     <MESSAGE value="fixed seeder" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed seeder" />
+    <MESSAGE value="refactoring to components." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring to components." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
