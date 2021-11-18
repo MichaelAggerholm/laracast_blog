@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="03f53c16-bb11-431b-996f-fcfedf6d927d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/category-button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/category-button.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/posts-grid.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/posts-grid.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/dropdown.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/dropdown.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,8 @@
       <workItem from="1634893013411" duration="442000" />
       <workItem from="1634902892838" duration="242000" />
       <workItem from="1634903411391" duration="1843000" />
-      <workItem from="1636640163068" duration="2427000" />
+      <workItem from="1636640163068" duration="2850000" />
+      <workItem from="1637266514768" duration="1198000" />
     </task>
     <task id="LOCAL-00001" summary="Refactor of files location and database name.">
       <created>1633641971322</created>
@@ -238,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636642342717</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="refaactoring">
+      <created>1636642628702</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1636642628702</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +275,8 @@
     <MESSAGE value="creating components to clean up code." />
     <MESSAGE value="fixed seeder" />
     <MESSAGE value="refactoring to components." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring to components." />
+    <MESSAGE value="refaactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refaactoring" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

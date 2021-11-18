@@ -1,5 +1,5 @@
 {{--@aprops(['trigger'])--}}
-<div x-data="{ show: false }" @click.outside="show = false">
+<div x-data="{ show: false }" @click.outside="show = false" class="relative">
     {{-- Trigger --}}
     <div @click="show = ! show">
         {{ $trigger }}

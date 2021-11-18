@@ -6,6 +6,8 @@ use App\Http\Controllers\SessionsController;
 use App\Http\Controllers\PostCommentsController;
 use App\Http\Controllers\NewsletterController;
 
+// RUN APP WTIH : php -S localhost:8000 -t public
+
 Route::get('/', [PostsController::class, 'index'])->name('home');
 
 Route::get('posts/{post:slug}', [PostsController::class, 'show']);
@@ -21,7 +23,7 @@ Route::post('login', [SessionsController::class, 'store'])->middleware('guest');
 
 Route::post('logout', [SessionsController::class, 'destroy'])->middleware('auth');
 
-Route::get('admin/posts/create', [PostsController::class, 'create'])->middleware('admin');
+Route::get('admin/posts/create', [PostsController::class, 'create'])->middleware('admin')->name('createPost');
 Route::post('admin/posts', [PostsController::class, 'store'])->middleware('admin');
 
 
