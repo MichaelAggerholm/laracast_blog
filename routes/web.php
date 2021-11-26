@@ -6,7 +6,7 @@ use App\Http\Controllers\SessionsController;
 use App\Http\Controllers\PostCommentsController;
 use App\Http\Controllers\NewsletterController;
 
-// RUN APP WTIH : php -S localhost:8000 -t public
+// RUN APP WITH : php -S localhost:8000 -t public
 
 Route::get('/', [PostsController::class, 'index'])->name('home');
 
