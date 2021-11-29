@@ -28,9 +28,9 @@ class PostsController extends Controller
     }
 
     public function store() {
-//        $path = \request()->file('thumbnail')->store('thumbnails');
-//
-//        return 'Done: ' . $path;
+        /*$path = request()->file('thumbnail')->store('thumbnails');
+
+        return 'Done: ' . $path;*/
 
         $attributes = request()->validate([
             'title' => 'required',

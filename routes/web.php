@@ -7,6 +7,7 @@ use App\Http\Controllers\PostCommentsController;
 use App\Http\Controllers\NewsletterController;
 
 // RUN APP WITH : php -S localhost:8000 -t public
+// Sæt 'FILESYSTEM_DRIVER=public' i .env!
 
 Route::get('/', [PostsController::class, 'index'])->name('home');
 
